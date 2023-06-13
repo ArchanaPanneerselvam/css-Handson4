@@ -1,0 +1,136 @@
+.head{
+    width: 100%;
+    text-align: center;
+    background-image: linear-gradient(to right,red,green,rgb(98, 223, 60),yellow);
+    text-decoration: underline;
+}
+.list{
+    width: 50%;
+    height: 75px;
+    margin-left: 300px;
+    border: 2px solid red;
+    background-color: paleturquoise;
+    border-radius: 15px;
+    padding-left: 250px;
+    
+}
+.bigbox{
+    height: 112px;
+    border: 1px solid red;
+    background-color: aqua;
+    border-radius: 10px;
+   display: flex; 
+   flex-wrap: wrap;
+    justify-content:space-around
+    
+
+}
+.box{
+    width: 400px;
+    height: 54px;
+    border: 1px solid green;
+    border-radius: 5px;
+}
+.head2{
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    background-image: linear-gradient(to right,red,yellow,red);
+    text-decoration: underline;
+}
+.top{
+    height: 250px;
+    border: 1px solid green;
+    background-image: radial-gradient(ellipse at center , blue, rgb(103, 206, 103));
+    display: flex;
+
+}
+.std{
+    width:220px;
+    height: 100px;
+    text-decoration: underline;
+    border: 1px solid red;
+    border-radius: 10px;
+    background-color: yellow;
+    margin: 50px;
+    color:rgb(192, 54, 54);
+    text-align: center;  
+    font-weight: 600; 
+}
+.parent{
+    display: grid;
+    grid-template-columns: 350px 450px auto 70px;
+    grid-template-rows: 40px 75px auto 30px;
+    gap:14px;
+    height: 348px;
+    border: 1px solid green;
+    
+}
+.item{
+    /* border: 1px solid green; */
+    color:white;
+    margin: 0px;
+    
+}
+.item1{
+    grid-column:1/5 ;
+    grid-row: 1/2;
+    background-color: crimson;
+    text-align:center;   
+}
+.item2{
+    text-align: center;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    background-color:lightgreen;
+    
+}
+.item3{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-color:#19A7CE;
+}
+.item4{
+    grid-column:3/4 ;
+    grid-row: 2/3;
+    background-color: blue;
+}
+.item5{
+    grid-column: 4/5;
+    grid-row: 2/4;
+    height: 249px;
+    background-color: black;
+    list-style-position: inside;
+   
+}
+.item6{
+    grid-column: 1/4;
+    grid-row: 3/4;
+    background-color:darkorange
+}
+.item7{
+    grid-column: 1/5;
+    grid-row: 4/5;
+    background-color:darkturquoise;
+    color: black;
+   text-align: center;
+} 
+h3{
+    margin: 0px;
+}
+h2{
+    margin: 0px;
+}
+ol{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    margin: 0;
+}
+hr{
+   margin: 0;
+}
+p{
+    margin: 0;
+}
